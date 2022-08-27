@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2280230628608656912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2280230628608656926}
+  - component: {fileID: 2280230628608656927}
+  m_Layer: 0
+  m_Name: VehicleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2280230628608656926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280230628608656912}
+  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2280230628608656927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280230628608656912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3853d3f41dd103f4485528148a92f3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicleQuantity: 40
+  vehiclePrefabs:
+  - prefab: {fileID: 1059452562714393195, guid: 1973218bd0a1104468186b9e83e829f7, type: 3}
+    amount: 20
+  - prefab: {fileID: 3768205350014002947, guid: fd42cfd410a294b4dbb8e5ecdcc99a74, type: 3}
+    amount: 20
+  - prefab: {fileID: 7792844645912233079, guid: 8e824e63d2bb65c4bb07bcb0512dd264, type: 3}
+    amount: 10
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  vehicleLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  minVehSpawnRadius: 60
+  maxVehSpawnRadius: 120
+  dissapearDistance: 180
+  physicsLODDistance: 80
+  skipFrames: 5

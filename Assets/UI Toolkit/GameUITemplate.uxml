@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: flex-end; margin-left: 5px; margin-bottom: 5px;">
+        <ui:VisualElement name="VisualElement" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/RadarRenderTexture.renderTexture?fileID=8400000&amp;guid=e11050ea34532ae428336de25b9a598e&amp;type=2#RadarRenderTexture&apos;); width: 256px; height: 256px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; transform-origin: left bottom;">
+            <ui:VisualElement name="VisualElement" style="background-image: url(&apos;project://database/Assets/Textures/MapCenterUI.png?fileID=2800000&amp;guid=d602e233cb7234142bc46a6017da2c84&amp;type=3#MapCenterUI&apos;); width: 256px; height: 256px; -unity-background-image-tint-color: rgba(62, 255, 0, 255); max-width: 64px; max-height: 64px; min-width: 16px; min-height: 16px; left: 50%; top: 50%; transform-origin: center; display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
